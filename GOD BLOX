@@ -17,7 +17,7 @@ local Camera = workspace.CurrentCamera
 -- ========== GUI ==========
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "BLOXFRUITS_AUTO"
-ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")  -- <-- CORRIGIDO
+ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")  -- ✅ CORRIGIDO
 ScreenGui.ResetOnSpawn = false
 
 -- Estado
